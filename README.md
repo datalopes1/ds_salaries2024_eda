@@ -55,7 +55,61 @@ Verificação através dos métodos isna() e duplicated().
 Foram feitos os processos de consertar preenchimentos e criar a coluna 'expertise'
 
 # 4. EDA ou Análise Exploratória de dados
+### Quais as top 10 posições com mais profissionais contratados?
+![Graph1](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_1.png?raw=true)
+Ultimamente tenho tido mais contato com a área de engenharia de dados, e é interessante ver que nela existem muitas vagas. Ver o alto número de contratados como analista de dados também é animador.
 
+### Quais especialidades tem mais profissionais contratados?
+![Graph2](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_2.png?raw=true)
+Ao fazer minha classficação pensei em dividir nessas três categorias com o critério de Data Science pegar vagas que exigiriam maiores hard skills, englobando AI, Machine Learning e posições de Engenharia e Arquitetura de dados. Análise de Dados e BI são áreas que muitas vezes se misturam ou se sobrepõem mas acho interessante separar as duas nesta análise.
+
+### Qual a distribuição de vagas por nível de experiência?
+![Graph3](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_3.png?raw=true)
+O nível de experiência com mais vagas ocupadas é o Senior, seguido pelo nível Pleno. Esse desbalanceamento no número de vagas (quase o dobro de seniores em relação a plenos, e o triplo de plenos em relação aos entry-level ou junior) acredito que com o passar do tempo irá forçar o aumento das vagas Júnior.
+
+### Qual a distribuição dos modelos de trabalho?
+![Graph4](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_4.png?raw=true)
+Pós pandemia de COVID-19 as vagas de trabalho presenciais já são maioria, como imaginava. Mas as vagas remotas ainda são uma parcela bastante relevante, apesar de eu ter em mente que vagas híbridas teriam mais vagas preenchidas.
+
+### Quais países tem mais profissionais de dados contratados (Top 10)?
+![Graph5](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_5.png?raw=true)
+![Graph6](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_6.png?raw=true)
+
+### Onde estão localizadas as companhias?
+![Graph7](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_7.png?raw=true)
+![Graph8](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_8.png?raw=true)
+Os EUA são o país onde estão localizadas algumas das maiores empresas de tecnologia do mundo, em 2023 mais de [70 delas estavam localizadas em solo norte-americano](https://forbes.com.br/forbes-tech/2023/06/quais-sao-as-maiores-empresas-de-tecnologia-do-mundo-em-2023/), então é natural que estive no topo do ranking. O Canadá é outro país onde são sedidas diversas companhias de tecnologia e é conhecido por um alto fluxo de migratorio por empregos neste setor, o restante das empresas está sediada em grande parte na Europa.
+
+### Companhias grandes são as que mais contratam profissionais de dados?
+![Graph9](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_9.png?raw=true)
+
+### Como estão distribuidos os salários no período analisado?
+![Graph10](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_10.png?raw=true)
+Existe um desbalanceamento dos dados, o que indica existem de dados extremos ou outliers. Vamos utilizar também um boxplot para visualizar de maneira mais clara estes valores.
+
+![Graph11](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_11.png?raw=true)
+
+### Como os salários em dados vem evoluindo neste período?
+![Graph12](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_12.png?raw=true)
+Houve uma grande explosão de salários entre o fim de 2021 e o começo de 2022, e esse crescimento continua estável até o ano presente. Essa é uma notícia animadora para o futuro, o único momento de queda (e mesmo assim leve) nos salários foi no período de pandemia.
+
+### Como estão evoluindo os salários por especialidade?
+![Graph13](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_13.png?raw=true)
+
+### O número de vagas remotas vem diminuindo?
+![Graph14](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_14.png?raw=true)
+2023 foi um ano com muitas vagas na área de Data Science no site de onde estamos retirando os dados, e com 2024 apenas no começo acho que o recorte de tempo mostra uma tendência do contínuo crescimento de vagas remotas e em dados em geral (vagas presenciais em 2024 já quase superam o total de 2022), apesar da prevalência de vagas presenciais.
+
+### Como é a progressão dos salários de acordo com o nível de carreira?
+![Graph15](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_15.png?raw=true)
+![Graph16](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_16.png?raw=true)
+![Graph17](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_17.png?raw=true)
+As posições relacionadas a AI (Inteligência Artifical) são as mais bem remuneradas dentro do mercado. Mesmo profissionais de entry-level tem oportunidades com alta remuneração. Mas ainda sim, maioria das ofertas estão entre mid e senior-level. Executivos costumam ser o mais bem remunerados dentro das empresas, mas no último gráfico vimos uma pequena excessão quando se trata de arquiteto de AI.
+
+### Como o tamanho da empresa afeta o salário?
+![Graph18](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_18.png?raw=true)
+![Graph19](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_19.png?raw=true)
+Empresas médias além de contratar, também são as que tem maior média salarial para profissionais de dados.
 
 # 5. Conclusões
 ![Imagem1](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
