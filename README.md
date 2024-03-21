@@ -54,7 +54,7 @@ Verificação através dos métodos isna() e duplicated().
 ## 3.2. Manipulação dos dados e colunas
 Foram feitos os processos de consertar preenchimentos e criar a coluna 'expertise'
 
-# 4. EDA ou Análise Exploratória de dados
+# 🔍4. EDA ou Análise Exploratória de dados
 ### Quais as top 10 posições com mais profissionais contratados?
 ![Graph1](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_1.png?raw=true)
 Ultimamente tenho tido mais contato com a área de engenharia de dados, e é interessante ver que nela existem muitas vagas. Ver o alto número de contratados como analista de dados também é animador.
@@ -111,7 +111,7 @@ As posições relacionadas a AI (Inteligência Artifical) são as mais bem remun
 ![Graph19](https://github.com/datalopes1/ds_salaries2024_eda/blob/main/data/img/img_19.png?raw=true)
 Empresas médias além de contratar, também são as que tem maior média salarial para profissionais de dados.
 
-# 5. Conclusões
+# ✅5. Conclusões
 ![Imagem1](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 Planejar e tomar decisões sempre medindo todos os passos para o processo ter o rendimento mais eficaz e eficiente foi a base da minha formação academica, como Engenheiro de Produção, buscar formas, maneiras e ferramentas para melhorar os processos sempre me interessaram. Ao progredir para supervisor de vendas durante minha carreira como corretor de imóveis, analisar o desempenho dos colegas e dos produtos na incorporadora estimularam ainda mais minha mente a um pensamento guiado por dados. Em 2022 quando tive a oportunidade de poder retomar e concluir minha graduação após a pandemia de COVID-19, a área de dados parecia como uma escolha cristalina do meu próximo passo de transição para uma nova carreira. Saber onde estou pisando ainda sim é importante, e ver que a progressão de carreira tem amplas opções de caminhos para seguir é muito animador.
 
